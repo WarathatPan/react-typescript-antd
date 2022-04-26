@@ -10,9 +10,6 @@ import ErrorBoundary from 'components/ErrorBoundaries';
 
 import { history } from 'helpers/common';
 import { Layout } from 'antd';
-import Sidebar from 'components/Sidebar';
-import HeaderCom from 'components/HeaderCom';
-import FooterCom from 'components/FooterCom';
 import 'react-toastify/dist/ReactToastify.css';
 import './styles/App.scss';
 import 'bootstrap/dist/css/bootstrap.css';
