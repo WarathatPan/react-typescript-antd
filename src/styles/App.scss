@@ -1,0 +1,71 @@
+@import '~antd/dist/antd.css';
+$primary-color: #3d88dd;
+
+a {
+  text-decoration: none !important;
+}
+
+.logo {
+  height: 50px;
+  margin: 5px;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: $primary-color;
+}
+
+.ant-btn-primary {
+  border-color: $primary-color;
+  background: $primary-color;
+  &:hover, &:focus, &:active {
+    border-color: darken($color: $primary-color, $amount: 10);
+    background: darken($color: $primary-color, $amount: 10);
+  }
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn, .ant-table-column-sorter-up.active, .ant-table-column-sorter-down.active {
+  color: $primary-color;
+}
+
+.ant-tabs-ink-bar {
+  background: $primary-color;
+}
+
+.ant-layout-header {
+  background: #fdfdfd !important;
+  border-bottom: 1px solid #EFEFEF !important;
+}
+.ant-layout-sider {
+  background: #fdfdfd !important;
+}
+
+.ant-menu-item-selected a, .ant-menu-item-selected a:hover, .ant-menu-item-selected .anticon {
+  color: #ffffff !important;
+}
+.ant-menu-light .ant-menu-item:hover, .ant-menu-light .ant-menu-item-active, .ant-menu-item a:hover {
+  color: $primary-color;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: $primary-color;
+}
+
+.ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left {
+  border-right: 0px;
+}
+
+.ant-menu-vertical .ant-menu-item::after, .ant-menu-vertical-left .ant-menu-item::after, .ant-menu-vertical-right .ant-menu-item::after, .ant-menu-inline .ant-menu-item::after {
+  border-right: 3px solid $primary-color;
+}
+
+.ant-layout-content {
+  padding-top: 15px;
+}
